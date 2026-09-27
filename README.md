@@ -90,26 +90,25 @@ Cart Management
  Project Structure
  -----------------------------
 
-text
-SmartInventoryAPI
+SmartInventoryAPI/
 │
-├── Controllers
+├── Controllers/
 │   ├── UserController.cs
 │   ├── ProductController.cs
 │   ├── CartController.cs
 │   └── OrderController.cs
 │
-├── Data
+├── Data/
 │   └── AppDbContext.cs
 │
-├── DTOs
+├── DTOs/
 │   ├── LoginDto.cs
 │   └── RegisterDto.cs
 │
-├── Middleware
+├── Middleware/
 │   └── ExceptionMiddleware.cs
 │
-├── Models
+├── Models/
 │   ├── User.cs
 │   ├── Product.cs
 │   ├── Cart.cs
@@ -117,10 +116,20 @@ SmartInventoryAPI
 │   ├── Order.cs
 │   └── OrderItem.cs
 │
-├── Migrations
+├── Migrations/
+│   ├── 20260925093248_InitialCreate.cs
+│   ├── 20260925093248_InitialCreate.Designer.cs
+│   ├── 20260927153021_FixDecimalPrecision.cs
+│   ├── 20260927153021_FixDecimalPrecision.Designer.cs
+│   ├── 20260927163048_AddSeedData.cs
+│   ├── 20260927163048_AddSeedData.Designer.cs
+│   └── AppDbContextModelSnapshot.cs
 │
+├── OrderTests.cs
+├── ProductTests.cs
 ├── Program.cs
 ├── appsettings.json
+├── README.md
 ├── SmartInventoryAPI.csproj
 ├── SmartInventoryAPI.Tests.csproj
 └── SmartInventoryAPI.slnx

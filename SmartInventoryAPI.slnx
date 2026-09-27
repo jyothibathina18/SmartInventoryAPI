@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../SmartInventoryAPI.Tests/SmartInventoryAPI.Tests.csproj" Id="45109394-019e-472e-b7dc-816215de9c10" />
+  <Project Path="SmartInventoryAPI.csproj" />
+</Solution>

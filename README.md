@@ -18,6 +18,7 @@ Technologies Used
 - Swagger / OpenAPI
 - LINQ
 - REST APIs
+- xUnit
 
 
 Project Features
@@ -45,6 +46,7 @@ Product Management
 - Product search
 - Pagination
 - Stock management
+- Low-stock report
 
 Cart Management
 -------------------------------
@@ -54,6 +56,7 @@ Cart Management
 - Remove product from cart
 - Quantity validation
 - Stock validation
+- Customer-specific cart access
  
  Order Management
  -----------------------------
@@ -68,6 +71,8 @@ Cart Management
 - Search orders by product name
 - View order by ID
 - Update order status
+- Cancel order
+- Restore product stock when an order is cancelled
 
  Security
  ---------------------------------
@@ -76,6 +81,7 @@ Cart Management
 - Role-based authorization
 - Admin-only APIs
 - Customer-specific order access
+-  Customer-specific cart access
 - Global exception handling
 - Input validation
 
@@ -115,4 +121,6 @@ SmartInventoryAPI
 │
 ├── Program.cs
 ├── appsettings.json
-└── README.md
+├── SmartInventoryAPI.csproj
+├── SmartInventoryAPI.Tests.csproj
+└── SmartInventoryAPI.slnx
